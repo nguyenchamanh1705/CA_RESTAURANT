@@ -1,0 +1,238 @@
+/* 
+Athor: Nguyen Cham Anh 
+Theme: Restaurant Food Order;
+version: 1.0;
+*/
+/* CSS for All*/
+
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+
+.img-responsive{
+    width: 100%;
+}
+
+.img-curve{
+    border-radius: 10px;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.text-center{
+    text-align:center;
+}
+.text-white{
+    color: whitesmoke;
+}
+
+a{
+    color: #2b088a;
+    text-decoration: black;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color:rgb(211, 14, 106);
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover{
+    background-color: rgb(104, 24, 24);
+    color: white;
+}
+
+.h2{
+    color: teal;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+.h3{
+    font-size: 1,5rem;
+}
+
+.float-container{
+    position: relative;
+}
+
+.float-text{
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+}
+
+/**CSS cho navbar**/
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+
+/**css cho menu**/
+.menu{
+    line-height: 60px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/*css cho food search*/
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/**CSS cho categories**/
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 31%;
+    float: left;
+    margin: 1%;
+}
+
+/**CSS cho Food-menu**/
+.food-menu{
+    background-color: #ff7979;
+    padding: 4%;
+}
+
+
+.food-menu-box{
+    border: 1px solid black;
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+ 
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70% ;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1,2rem;
+    margin: 2% 0;
+}
+
+.food-detail{
+    font-size: 1rem;
+    color: rgb(114, 17, 17);
+}
+
+/**CSS cho social**/
+.social ul{
+    list-style-type: none;
+}
+
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/*CSS for order*/
+.mid{
+    background-image: url(../images/bg.jpg));
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 6%;
+}
+.order-form{
+    width: 40%;
+    margin: 0 auto;
+}
+.picture{
+    width: 15%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 3%;
+}
+.food-select{
+    width: 50%;
+    float: left;
+    margin-left:10%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+.numberfield{
+    width: 100%;
+    padding: 1%;
+    font-size: 100%;
+    border: none;
+    border-radius: 5px;
+}
+.delivery{
+    width: 40%;
+    margin: 0 auto;
+}
+.delivery input[type="text"]{
+    width: 85%;
+    padding: 1%;
+    margin-left: 6%;
+    border-radius: 5px;
+    border: none;
+}
+.addressfield{
+    width: 85%;
+    padding: 1%;
+    margin-left: 6%;
+    border: none;
+    border-radius: 5px;
+}
+.confirm{
+    margin: 6%;
+}
